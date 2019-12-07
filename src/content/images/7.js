@@ -1,0 +1,10 @@
+export { default as Imgthumb } from './processed/thumb/7.png';
+export { default as ImgthumbBlurSmall } from './processed/thumbBlurSmall/7.png';
+export { default as ImgthumbBlurLarge } from './processed/thumbBlurLarge/7.png';
+export const ImgData = { width: 800, height: 703, ratio: 0.87875, orientation: 'landscape' };
+export { default as Img200 } from './processed/200/7.png';
+export { default as Img400 } from './processed/400/7.png';
+export { default as Img600 } from './processed/600/7.png';
+export { default as Img800 } from './processed/800/7.png';
+export { default as Img1000 } from './processed/1000/7.png';
+export { default as Img1200 } from './processed/1200/7.png';

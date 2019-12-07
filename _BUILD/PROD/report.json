@@ -1,0 +1,34 @@
+{
+	"ENV": "PROD",
+	"buildBy": "martin-banks",
+	"buildTime": {
+		"date": "20191206",
+		"time": "19-24-12"
+	},
+	"config": {
+		"projectName": "dt-1206-satellite-smoke-scrubber",
+		"section": "daily-telegraph",
+		"path": {
+			"UAT": ".",
+			"PROD": "https://media.news.com.au/DTinteractive/dt-1206-satellite-smoke-scrubber"
+		},
+		"localstyle": false,
+		"images": {
+			"children": false,
+			"jsPrefix": "Img",
+			"sizes": {
+				"thumb": 50,
+				"min": 200,
+				"max": 1000,
+				"inc": 200
+			},
+			"quality": {
+				"image": 40,
+				"thumb": 80
+			},
+			"thumbBlurLarge": 2,
+			"thumbBlurSmall": 1,
+			"location": "./src/content/images"
+		}
+	}
+}
